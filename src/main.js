@@ -2,11 +2,9 @@ import "/src/components/styles/settings/colors.css"; //variables with colors
 import "/src/components/styles/generic/reset.css"; //reset
 import "/src/components/styles/elements/base.css"; //general css styles
 
-import CardGame from "./components/CardGame";
+import BoardGame from "./objects/BoardGame";
 
 const $root = document.querySelector("#root ");
-const $htmlCardGame = CardGame();
+const $htmlBoardGame = BoardGame(6);
 
-console.log($htmlCardGame);
-
-$root.insertAdjacentHTML("beforeend", $htmlCardGame);
+$root.insertAdjacentHTML("beforeend", $htmlBoardGame);
