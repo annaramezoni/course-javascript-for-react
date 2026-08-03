@@ -1,4 +1,4 @@
-import PlayerName from "../../components/PlayerScore/PlayerName";
+import PlayerName from "../../components/PlayerName";
 import VsPlayer from "../../components/VsPlayer";
 import "./style.css";
 
