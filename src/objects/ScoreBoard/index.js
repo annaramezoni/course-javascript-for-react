@@ -1,5 +1,5 @@
 import PlayerName from "../../components/PlayerScore/PlayerName";
-import VsPlayer from "../VsPlayer";
+import VsPlayer from "../../components/VsPlayer";
 import "./style.css";
 
 function ScoreBoard() {
