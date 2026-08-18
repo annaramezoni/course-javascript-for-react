@@ -1,6 +1,12 @@
-function ArrowDown() {
+import "./style.css";
+
+function ArrowDown(currentPlayer = 1) {
   return `
-        <img src="images/IconArrowDown.png" atl= "Arrow down icon"/>
+        <img class= "arrow-down"
+        data-currentPlayer="${currentPlayer}"
+         src="images/IconArrowDown.png"
+          atl= "Arrow down icon"
+          />
     `;
 }
 
