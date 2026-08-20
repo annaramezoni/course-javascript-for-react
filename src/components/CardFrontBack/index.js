@@ -2,7 +2,7 @@ import CardGame from "../CardGame";
 import "./style.css";
 
 function CardFrontBack(icon, altIcon) {
-  window.cardFrontBack = {};
+  window.cardFrontBack = {}; //name space
   window.cardFrontBack.handleClick = (event) => {
     const $origin = event.target;
     const $cardFrontBack = $origin.closest(".card-front-back");
